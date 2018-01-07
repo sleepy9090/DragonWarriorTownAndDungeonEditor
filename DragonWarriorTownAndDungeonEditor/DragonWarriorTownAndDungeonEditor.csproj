@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C825CC5A-E5F8-4764-8735-C854FC127539}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DragonWarriorTownAndDungeonEditor</RootNamespace>
+    <AssemblyName>DragonWarriorTownAndDungeonEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>erdrickandprincess16x16.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassDWBackend.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBrecconary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBrecconary.Designer.cs">
+      <DependentUpon>FormBrecconary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCantlin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCantlin.Designer.cs">
+      <DependentUpon>FormCantlin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB1.Designer.cs">
+      <DependentUpon>FormCharlockCastleB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB2.Designer.cs">
+      <DependentUpon>FormCharlockCastleB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB3.Designer.cs">
+      <DependentUpon>FormCharlockCastleB3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB4.Designer.cs">
+      <DependentUpon>FormCharlockCastleB4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB5.Designer.cs">
+      <DependentUpon>FormCharlockCastleB5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB6.Designer.cs">
+      <DependentUpon>FormCharlockCastleB6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleB7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleB7.Designer.cs">
+      <DependentUpon>FormCharlockCastleB7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCharlockCastleF1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCharlockCastleF1.Designer.cs">
+      <DependentUpon>FormCharlockCastleF1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormErdricksCaveB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErdricksCaveB1.Designer.cs">
+      <DependentUpon>FormErdricksCaveB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormErdricksCaveB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErdricksCaveB2.Designer.cs">
+      <DependentUpon>FormErdricksCaveB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinham.Designer.cs">
+      <DependentUpon>FormGarinham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB1.Designer.cs">
+      <DependentUpon>FormGarinhamsGraveB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB2.Designer.cs">
+      <DependentUpon>FormGarinhamsGraveB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB3.Designer.cs">
+      <DependentUpon>FormGarinhamsGraveB3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGarinhamsGraveB4.Designer.cs">
+      <DependentUpon>FormGarinhamsGraveB4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHauksnessRuins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHauksnessRuins.Designer.cs">
+      <DependentUpon>FormHauksnessRuins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKol.Designer.cs">
+      <DependentUpon>FormKol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRainbowShrine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRainbowShrine.Designer.cs">
+      <DependentUpon>FormRainbowShrine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRainShrine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRainShrine.Designer.cs">
+      <DependentUpon>FormRainShrine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRimuldar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRimuldar.Designer.cs">
+      <DependentUpon>FormRimuldar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRockMountainCaveB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRockMountainCaveB1.Designer.cs">
+      <DependentUpon>FormRockMountainCaveB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRockMountainCaveB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRockMountainCaveB2.Designer.cs">
+      <DependentUpon>FormRockMountainCaveB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSwampCave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSwampCave.Designer.cs">
+      <DependentUpon>FormSwampCave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTantegelCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTantegelCastle.Designer.cs">
+      <DependentUpon>FormTantegelCastle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTantegelCastleBasement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTantegelCastleBasement.Designer.cs">
+      <DependentUpon>FormTantegelCastleBasement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTantegelCastleThroneRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTantegelCastleThroneRoom.Designer.cs">
+      <DependentUpon>FormTantegelCastleThroneRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBrecconary.resx">
+      <DependentUpon>FormBrecconary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCantlin.resx">
+      <DependentUpon>FormCantlin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB1.resx">
+      <DependentUpon>FormCharlockCastleB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB2.resx">
+      <DependentUpon>FormCharlockCastleB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB3.resx">
+      <DependentUpon>FormCharlockCastleB3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB4.resx">
+      <DependentUpon>FormCharlockCastleB4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB5.resx">
+      <DependentUpon>FormCharlockCastleB5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB6.resx">
+      <DependentUpon>FormCharlockCastleB6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleB7.resx">
+      <DependentUpon>FormCharlockCastleB7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCharlockCastleF1.resx">
+      <DependentUpon>FormCharlockCastleF1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormErdricksCaveB1.resx">
+      <DependentUpon>FormErdricksCaveB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormErdricksCaveB2.resx">
+      <DependentUpon>FormErdricksCaveB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinham.resx">
+      <DependentUpon>FormGarinham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinhamsGraveB1.resx">
+      <DependentUpon>FormGarinhamsGraveB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinhamsGraveB2.resx">
+      <DependentUpon>FormGarinhamsGraveB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinhamsGraveB3.resx">
+      <DependentUpon>FormGarinhamsGraveB3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGarinhamsGraveB4.resx">
+      <DependentUpon>FormGarinhamsGraveB4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHauksnessRuins.resx">
+      <DependentUpon>FormHauksnessRuins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKol.resx">
+      <DependentUpon>FormKol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRainbowShrine.resx">
+      <DependentUpon>FormRainbowShrine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRainShrine.resx">
+      <DependentUpon>FormRainShrine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRimuldar.resx">
+      <DependentUpon>FormRimuldar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRockMountainCaveB1.resx">
+      <DependentUpon>FormRockMountainCaveB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRockMountainCaveB2.resx">
+      <DependentUpon>FormRockMountainCaveB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSwampCave.resx">
+      <DependentUpon>FormSwampCave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTantegelCastle.resx">
+      <DependentUpon>FormTantegelCastle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTantegelCastleBasement.resx">
+      <DependentUpon>FormTantegelCastleBasement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTantegelCastleThroneRoom.resx">
+      <DependentUpon>FormTantegelCastleThroneRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dqcomic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dwboxcover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\0-crackedstonewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\1-stairsup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\2-redbrickfloor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\3-stairsdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\4-treasurechest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\5-lockeddoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\6-princessgwaelin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\dungeon\7-blackwall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\0-grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\1-desert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\2-water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\3-treasurechest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\4-solidstonewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\5-stairsup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\6-redbrickfloor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\7-stairsdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\8-forest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\9-poisonousswamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\a-barrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\b-lockeddoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\c-weaponshopsign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\d-innsign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\e-bridge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\f-desk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tiles\town\4-solidstonewall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\castle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\town.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\dwnpcover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\erdrickandprincess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="erdrickandprincess16x16.ico" />
+    <None Include="res\shrine.png" />
+    <None Include="res\cave.png" />
+    <None Include="res\tiles\dungeon-alt\f-stairsdown-special.png" />
+    <None Include="res\tiles\dungeon-alt\e-redbrickfloor-special.png" />
+    <None Include="res\tiles\dungeon-alt\d-stairsup-special.png" />
+    <None Include="res\tiles\dungeon-alt\c-solidstonewall-special.png" />
+    <None Include="res\tiles\dungeon-alt\b-treasurechest-special.png" />
+    <None Include="res\tiles\dungeon-alt\a-water-special.png" />
+    <None Include="res\tiles\dungeon-alt\9-desert-special.png" />
+    <None Include="res\tiles\dungeon-alt\8-grass-special.png" />
+    <None Include="res\tiles\dungeon-alt\f-stairsdown.png" />
+    <None Include="res\tiles\dungeon-alt\e-redbrickfloor.png" />
+    <None Include="res\tiles\dungeon-alt\d-stairsup.png" />
+    <None Include="res\tiles\dungeon-alt\c-solidstonewall.png" />
+    <None Include="res\tiles\dungeon-alt\b-treasurechest.png" />
+    <None Include="res\tiles\dungeon-alt\a-water.png" />
+    <None Include="res\tiles\dungeon-alt\9-desert.png" />
+    <None Include="res\tiles\dungeon-alt\8-grass.png" />
+    <None Include="res\tiles\dungeon-alt\7-stairsdown.png" />
+    <None Include="res\tiles\dungeon-alt\6-redbrickfloor.png" />
+    <None Include="res\tiles\dungeon-alt\5-stairsup.png" />
+    <None Include="res\tiles\dungeon-alt\4-solidstonewall.png" />
+    <None Include="res\tiles\dungeon-alt\3-treasurechest.png" />
+    <None Include="res\tiles\dungeon-alt\2-water.png" />
+    <None Include="res\tiles\dungeon-alt\1-desert.png" />
+    <None Include="res\tiles\dungeon-alt\0-grass.png" />
+    <None Include="res\tiles\dungeon\7-blackwall-special.png" />
+    <None Include="res\tiles\dungeon\6-princessgwaelin-special.png" />
+    <None Include="res\tiles\dungeon\5-lockeddoor-special.png" />
+    <None Include="res\tiles\dungeon\4-treasurechest-special.png" />
+    <None Include="res\tiles\dungeon\3-stairsdown-special.png" />
+    <None Include="res\tiles\dungeon\2-redbrickfloor-special.png" />
+    <None Include="res\tiles\dungeon\1-stairsup-special.png" />
+    <None Include="res\tiles\dungeon\0-crackedstonewall-special.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

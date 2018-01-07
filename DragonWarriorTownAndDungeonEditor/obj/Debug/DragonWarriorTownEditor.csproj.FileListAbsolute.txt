@@ -1,0 +1,9 @@
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\bin\Debug\DragonWarriorTownEditor.exe
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\bin\Debug\DragonWarriorTownEditor.pdb
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.csprojResolveAssemblyReference.cache
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.AboutBox1.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.FormMain.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.Properties.Resources.resources
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.csproj.GenerateResource.Cache
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.exe
+f:\users\sleepy\documents\visual studio 2013\Projects\DragonWarriorTownEditor\DragonWarriorTownEditor\obj\Debug\DragonWarriorTownEditor.pdb
