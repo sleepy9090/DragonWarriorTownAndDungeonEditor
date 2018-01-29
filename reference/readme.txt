@@ -1,4 +1,4 @@
-DragonWarriorTownAndDungeonEditor 1.0.0.28734 + Source
+DragonWarriorTownAndDungeonEditor 1.0.0.28734
 Coded by: Shawn M. Crawford [sleepy9090]
 January 8, 2018
 
