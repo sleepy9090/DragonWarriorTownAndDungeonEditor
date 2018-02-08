@@ -34,3 +34,4 @@ F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTownAndDungeo
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTownAndDungeonEditor\DragonWarriorTownAndDungeonEditor\obj\Release\DragonWarriorTownAndDungeonEditor.csproj.GenerateResource.Cache
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTownAndDungeonEditor\DragonWarriorTownAndDungeonEditor\obj\Release\DragonWarriorTownAndDungeonEditor.exe
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTownAndDungeonEditor\DragonWarriorTownAndDungeonEditor\obj\Release\DragonWarriorTownAndDungeonEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTownAndDungeonEditor\DragonWarriorTownAndDungeonEditor\obj\Release\DragonWarriorTownAndDungeonEditor.csprojResolveAssemblyReference.cache
